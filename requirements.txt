@@ -1,5 +1,5 @@
 streamlit>=1.32
-pandas>=2.1,<2.3
-numpy<2.0
-pandas-ai>=1.0
+pandas>=2.2,<2.4        # pandas 2.2 ships wheels for Py 3.13
+numpy>=2.0,<3.0         # NumPy 2 works fine with pandas 2.2
+pandasai>=1.0           # <-- fixed name (no hyphen)
 openai>=1.0
