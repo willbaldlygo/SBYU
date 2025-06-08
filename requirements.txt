@@ -1,0 +1,5 @@
+streamlit>=1.32
+pandas>=2.1,<2.3
+numpy<2.0
+pandas-ai>=1.0
+openai>=1.0
